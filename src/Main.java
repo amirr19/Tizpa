@@ -23,7 +23,7 @@ public class Main {
             int condition = sc.nextInt();
             System.out.println("please inter ur class:\n 1.economy \t 2.vip \t 3.motor");
             int type = sc.nextInt();
-            price = baseCost.base[type - 1] * distance * Condition.condictionCost[type - 1][condition - 1];
+            price = BaseCost.base[type - 1] * distance * Condition.condictionCost[type - 1][condition - 1];
 //        System.out.println(Arrays.deepToString(Region.getRegions()));
             System.out.println("Total price is : \t" + price);
         }
